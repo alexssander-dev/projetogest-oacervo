@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Acervo - Biblioteca</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Gestão de Acervo - Livros do vestibular - História</h1>
+    
+    <div class="stats">
+        <div class="stat-card">
+            <h3>Total de Livros</h3>
+            <div class="stat-value" id="total-books">0</div>
+        </div>
+        <div class="stat-card">
+            <h3>Disponíveis</h3>
+            <div class="stat-value" id="available-books">0</div>
+        </div>
+        <div class="stat-card">
+            <h3>Emprestados</h3>
+            <div class="stat-value" id="borrowed-books">0</div>
+        </div>
+        <div class="stat-card">
+            <h3>Atrasados</h3>
+            <div class="stat-value" id="overdue-books">0</div>
+        </div>
+    </div>
+    
+    <div class="filters">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Pesquisar por título, autor ou código...">
+            <button onclick="filterBooks()">Pesquisar</button>
+            <button id="show-overdue-btn" class="ordenar-atrasados">Ver Atrasados por Ordem</button>
+            <button id="reset-view-btn" class="reset-view">Ver Todos</button>
+        </div>
+        <div>
+            <label for="status-filter">Filtrar por status:</label>
+            <select id="status-filter" onchange="filterBooks()">
+                <option value="all">Todos</option>
+                <option value="DISPONÍVEL">Disponíveis</option>
+                <option value="EMPRESTADO">Emprestados</option>
+                <option value="ATRASADO">Atrasados</option>
+            </select>
+            
+            <label for="acervo-filter" style="margin-left: 15px;">Filtrar por código ACERVO:</label>
+            <select id="acervo-filter" onchange="filterBooks()">
+                <option value="all">Todos</option>
+            </select>
+        </div>
+    </div>
+    
+    <table id="books-table">
+        <thead>
+            <tr id="table-header">
+                <th>Código Acervo</th>
+                <th>Exemplar Único</th>
+                <th>Título</th>
+                <th>Autor</th>
+                <th>Status</th>
+                <th>Devolução Prevista</th>
+                <th class="dias-atraso-header">Dias em Atraso</th>
+                <th class="divida-header">Dívida</th>
+            </tr>
+        </thead>
+        <tbody id="books-body">
+            <!-- Dados serão preenchidos por JavaScript -->
+        </tbody>
+    </table>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

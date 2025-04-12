@@ -1,0 +1,172 @@
+{
+    "livros": [
+        {
+            "codigoAcervo": "124826",
+            "exemplarUnico": "30125150",
+            "titulo": "Quarto de Despejo (ALE)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "DISPONÍVEL",
+            "devolucaoPrevista": null
+        },
+        {
+            "codigoAcervo": "720919",
+            "exemplarUnico": "30185272",
+            "titulo": "Quarto de Despejo(1983)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "14/04/2007"
+        },
+        {
+            "codigoAcervo": "720919",
+            "exemplarUnico": "989219",
+            "titulo": "Quarto de Despejo(1983)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "05/04/2025"
+        },
+        {
+            "codigoAcervo": "720919",
+            "exemplarUnico": "1001487",
+            "titulo": "Quarto de Despejo(1983)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "02/04/2025"
+        },
+        {
+            "codigoAcervo": "262825",
+            "exemplarUnico": "30315360",
+            "titulo": "Quarto de Despejo(1989)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "03/01/2002"
+        },
+        {
+            "codigoAcervo": "914755",
+            "exemplarUnico": "1337554",
+            "titulo": "Quarto de Despejo(2022)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "11/04/2025"
+        },
+        {
+            "codigoAcervo": "914755",
+            "exemplarUnico": "1337555",
+            "titulo": "Quarto de Despejo(2022)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "EMPRESTADO",
+            "devolucaoPrevista": "22/04/2025"
+        },
+        {
+            "codigoAcervo": "914755",
+            "exemplarUnico": "1337556",
+            "titulo": "Quarto de Despejo(2022)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "17/11/2022"
+        },
+        {
+            "codigoAcervo": "722363",
+            "exemplarUnico": "30203408",
+            "titulo": "Quarto de Despejo(1993)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "29/09/1999"
+        },
+        {
+            "codigoAcervo": "722363",
+            "exemplarUnico": "994402",
+            "titulo": "Quarto de Despejo(1993)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "01/04/2025"
+        },
+        {
+            "codigoAcervo": "722363",
+            "exemplarUnico": "994403",
+            "titulo": "Quarto de Despejo(1993) RS",
+            "autor": "Carolina Maria de Jesus",
+            "status": "NÃO LOCALIZADO",
+            "devolucaoPrevista": null
+        },
+        {
+            "codigoAcervo": "722363",
+            "exemplarUnico": "994404",
+            "titulo": "Quarto de Despejo(1993)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "EMPRESTADO",
+            "devolucaoPrevista": "22/04/2025"
+        },
+        {
+            "codigoAcervo": "722363",
+            "exemplarUnico": "994405",
+            "titulo": "Quarto de Despejo(1993)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "20/12/2021"
+        },
+        {
+            "codigoAcervo": "722363",
+            "exemplarUnico": "30356526",
+            "titulo": "Quarto de Despejo(1993)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "05/03/2004"
+        },
+        {
+            "codigoAcervo": "722363",
+            "exemplarUnico": "994695",
+            "titulo": "Quarto de Despejo(1993)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "30/08/2019"
+        },
+        {
+            "codigoAcervo": "722363",
+            "exemplarUnico": "994695",
+            "titulo": "Quarto de Despejo(1993)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "29/04/2024"
+        },
+        {
+            "codigoAcervo": "721909",
+            "exemplarUnico": "1116565",
+            "titulo": "Quarto de Despejo(2007)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "22/03/2018"
+        },
+        {
+            "codigoAcervo": "721909",
+            "exemplarUnico": "1395644",
+            "titulo": "Quarto de Despejo(2007)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "28/06/2024"
+        },
+        {
+            "codigoAcervo": "721909",
+            "exemplarUnico": "1428227",
+            "titulo": "Quarto de Despejo(2007)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "04/04/2025"
+        },
+        {
+            "codigoAcervo": "721909",
+            "exemplarUnico": "1438046",
+            "titulo": "Quarto de Despejo(2007)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "05/04/2025"
+        },
+        {
+            "codigoAcervo": "423675",
+            "exemplarUnico": "00420312/2006",
+            "titulo": "Quarto de Despejo(1960)",
+            "autor": "Carolina Maria de Jesus",
+            "status": "ATRASADO",
+            "devolucaoPrevista": "20/08/2019"
+        }
+    ]
+}
